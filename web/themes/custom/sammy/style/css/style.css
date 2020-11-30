@@ -10360,6 +10360,14 @@ code {
   padding: 45px;
 }
 
+.field--type-datetime {
+  margin-bottom: 24px;
+}
+
+.js-form-type-date {
+  width: 100%;
+}
+
 .view-old-invoices table {
   text-align: center;
   font-size: 25px;
