@@ -10354,4 +10354,13 @@ code {
   overflow-y: auto;
 }
 
-/* No files to import found in components/**\/* */
+.btn-block {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 45px;
+}
+
+.view-old-invoices table {
+  text-align: center;
+  font-size: 25px;
+}
