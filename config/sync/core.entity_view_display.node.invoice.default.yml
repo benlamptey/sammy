@@ -1,0 +1,40 @@
+uuid: cb6b28aa-1e75-4e80-8fec-11d4c673a99c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.invoice.field_invoice_date
+    - field.field.node.invoice.field_invoice_end_date
+    - node.type.invoice
+  module:
+    - datetime
+    - user
+id: node.invoice.default
+targetEntityType: node
+bundle: invoice
+mode: default
+content:
+  field_invoice_date:
+    weight: 101
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_invoice_end_date:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,18 @@
+sammy_invoice.generate_invoice:
+  path: '/sammy/{node}/generate'
+  defaults:
+    _controller: '\Drupal\sammy_invoice\Controller\GenerateInvoice::build'
+    _title: 'Generate Invoice'
+  requirements:
+    _permission: 'access content'
+  options:
+    parameters:
+      node:
+        type: entity:node
+sammy_invoice.home:
+  path: '/home'
+  defaults:
+    _controller: '\Drupal\sammy_invoice\Controller\Home::build'
+    _title: 'Home'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,22 @@
+uuid: 3d155b49-796a-4519-9563-d6df12bbb7ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sammy
+_core:
+  default_config_hash: aJ6ps0sJm9MtQffqINgRms1JaSQgjsg68REaPdN-BGk
+id: sammy_content
+theme: sammy
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

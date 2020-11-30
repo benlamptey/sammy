@@ -1,0 +1,16 @@
+// Include custom sub theme.
+@import 'custom/variables';
+//@import 'custom/mixins/misc';
+//@import 'custom/misc';
+
+// Include bootstrap variables definitions overrides.
+@import 'overrides/variables';
+@import 'overrides/body';
+
+// Include parent theme with all things Bootstrap for full override.
+// Relative path to this styles.scss file.
+//@import "../../../../../themes/contrib/bootstrap4/scss/style";
+// OR to go back to Bootstrap 4.4.1
+@import "../../../../contrib/bootstrap4/scss/style-4-4";
+
+@import "components/**/*";

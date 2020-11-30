@@ -1,0 +1,18 @@
+uuid: 01c06d4c-fc6a-4fa1-98d0-0a63b2a1e87d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.invoice
+id: node.invoice.title
+field_name: title
+entity_type: node
+bundle: invoice
+label: 'Invoice number'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+uuid: bbdc4cc4-68ac-45e7-b61c-58c0294b19fa
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'create invoice content'
+  - 'edit any invoice content'
+  - 'edit own invoice content'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view invoice revisions'

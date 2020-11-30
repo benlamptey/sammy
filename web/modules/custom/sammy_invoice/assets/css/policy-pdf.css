@@ -1,0 +1,22 @@
+body {
+  font-family: "Source Sans Pro", "Lucida Grande", sans-serif;
+}
+.header-section {
+  text-align: center;
+}
+.names {
+  margin-left: 50px;
+  display: block;
+}
+table {
+  border-collapse: collapse;
+  padding: 2px;
+}
+td {
+  padding: 10px;
+}
+
+.total {
+  text-align: right;
+}
+.vat { text-align: center}

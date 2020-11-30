@@ -1,0 +1,17 @@
+uuid: 47c30d1c-732e-4aa6-9730-0357f4d13b1e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Invoice
+type: invoice
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implements hook_theme
+ */
+function sammy_invoice_theme() {
+  return [
+    'sammy-invoice' => [
+      'variables' => [
+        'content' => NULL,
+      ],
+    ],
+    'home' => [
+      'variables' => [
+        'content' => NULL,
+      ],
+    ]
+  ];
+}

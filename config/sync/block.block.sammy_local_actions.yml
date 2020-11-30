@@ -1,0 +1,20 @@
+uuid: 674954a8-fc89-430f-ad78-089892f50327
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sammy
+_core:
+  default_config_hash: rKurRLaH08AjwE5wsNzeL2fa77rF5pXKSR9WopsFYyI
+id: sammy_local_actions
+theme: sammy
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: 9feb2518-3abf-46ae-a8fd-30ebb86be601
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.invoice.field_invoice_date
+    - field.field.node.invoice.field_invoice_end_date
+    - node.type.invoice
+  module:
+    - user
+id: node.invoice.teaser
+targetEntityType: node
+bundle: invoice
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_invoice_date: true
+  field_invoice_end_date: true
